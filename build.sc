@@ -9,6 +9,7 @@ trait Exercise extends ScalaModule {
 
 object Introduction extends Chapter {
   object PrintableLib extends Exercise
+  object CatShow extends Exercise
 }
 
 
