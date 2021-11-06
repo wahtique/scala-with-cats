@@ -1,10 +1,15 @@
 import mill._, scalalib._
 
-trait Scala3Module extends ScalaModule {
+type Chapter = Module
+
+trait Exercise extends ScalaModule {
   def scalaVersion = "3.1.0"
+  def ivyDeps = Agg(ivy"org.typelevel::cats-core:2.6.1")
 }
 
-object PrintableLib extends Scala3Module
+object Introduction extends Chapter {
+  object PrintableLib extends Exercise
+}
 
 
 // object test extends Tests {
