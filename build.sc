@@ -13,6 +13,9 @@ object Introduction extends Chapter {
   object Eq extends Exercise
 }
 
+object MonoidsAndSemigroups extends Chapter {
+  object BooleanMonoids extends Exercise
+}
 
 // object test extends Tests {
 //   def ivyDeps = Agg(ivy"org.scalameta::munit:1.0.0-M1")
