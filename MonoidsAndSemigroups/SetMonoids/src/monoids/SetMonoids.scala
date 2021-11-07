@@ -15,7 +15,7 @@ object SetUnion :
         def empty = Set.empty[A]
 
 object SetIntersection :
-    given setSemigroup[A](using monoid: Semigroup[A]): Semigroup[Set[A]] with 
+    given setSemigroup[A](using semiA: Semigroup[A]): Semigroup[Set[A]] with 
         def combine(a: Set[A], b: Set[A]) = a intersect b
 
 // some base monoids
