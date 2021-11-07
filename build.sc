@@ -14,6 +14,10 @@ object MonoidsAndSemigroups extends Chapter {
   object AddingMonoids extends Exercise
 }
 
+object Functors extends Chapter {
+  object BranchingOut extends Exercise
+}
+
 // utility type to group exercises by chapter
 type Chapter = Module
 
