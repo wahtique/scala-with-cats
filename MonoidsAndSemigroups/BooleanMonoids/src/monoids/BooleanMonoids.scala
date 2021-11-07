@@ -1,7 +1,5 @@
 package monoids
 
-import scala.collection.mutable.ArraySeq.ofBoolean
-
 trait Semigroup[A]:
   def combine(x: A, y: A): A
 
