@@ -17,6 +17,7 @@ object MonoidsAndSemigroups extends Chapter {
 object Functors extends Chapter {
   object BranchingOut extends Exercise
   object Contramap extends Exercise
+  object Imap extends Exercise
 }
 
 // utility type to group exercises by chapter
